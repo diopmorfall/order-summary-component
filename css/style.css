@@ -1,22 +1,32 @@
+.flex-column, .flex-align-center, .flex-full-center, body, body .page, body .page .summary, body .page .summary .message, body .page .summary .confirm-plan .btn-container, .flex-justify-center, body .page .summary .confirm-plan { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.flex-align-center, .flex-full-center, body, body .page, body .page .summary, body .page .summary .message, body .page .summary .confirm-plan .btn-container { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.flex-justify-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.flex-full-center, body { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.base-btn, body .page .summary .confirm-plan .btn-container button { width: 100%; height: 50px; margin-bottom: 5%; border: none; border-radius: 12px; font-weight: 900; cursor: pointer; }
+
 * { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
 
-body { font-size: 16px; font-family: 'Red Hat Display', sans-serif; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #e0e8ff; background-image: url("/images/pattern-background-mobile.svg"); background-repeat: no-repeat; background-size: cover; }
+body { font-size: 16px; font-family: "Red Hat Display", sans-serif; background-color: #e0e8ff; background-image: url("/images/pattern-background-mobile.svg"); background-repeat: no-repeat; background-size: cover; }
 
-body .page { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 330px; margin: auto; margin-top: 20px; border: none; border-radius: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; background-color: white; -webkit-box-shadow: 0 15px 10px #e0ddf8; box-shadow: 0 15px 10px #e0ddf8; }
+body .page { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 330px; margin: auto; margin-top: 20px; border: none; border-radius: 20px; overflow: hidden; background-color: white; -webkit-box-shadow: 0 15px 10px #e0ddf8; box-shadow: 0 15px 10px #e0ddf8; }
 
 body .page .hero { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 100%; }
 
 body .page .hero img { max-width: 100%; }
 
-body .page .summary { margin-top: 5%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 90%; }
+body .page .summary { margin-top: 5%; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 90%; }
 
-body .page .summary .message { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 90%; margin-bottom: 10%; }
+body .page .summary .message { width: 90%; margin-bottom: 10%; }
 
 body .page .summary .message h1 { font-weight: 900; }
 
 body .page .summary .message p { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; text-align: center; margin-top: 5%; color: grey; font-weight: 500; }
 
-body .page .summary .confirm-plan { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
+body .page .summary .confirm-plan { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
 
 body .page .summary .confirm-plan .plan-details { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: distribute; justify-content: space-around; background-color: #f5f7ff; border-radius: 8px; padding: 13px; margin-bottom: 10%; }
 
@@ -26,17 +36,13 @@ body .page .summary .confirm-plan .plan-details p { color: grey; }
 
 body .page .summary .confirm-plan .plan-details a { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
 
-body .page .summary .confirm-plan .btn-container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-
-body .page .summary .confirm-plan .btn-container button { width: 100%; height: 50px; margin-bottom: 5%; border: none; border-radius: 12px; font-weight: 900; cursor: pointer; }
-
 body .page .summary .confirm-plan .btn-container button:first-of-type { background-color: #3829e0; color: white; -webkit-box-shadow: 0 10px 10px #dfdcf9; box-shadow: 0 10px 10px #dfdcf9; }
 
 body .page .summary .confirm-plan .btn-container button:last-of-type { background-color: white; color: grey; }
 
 body .attribution { position: absolute; bottom: 2%; }
 
-@media only screen and (min-width: 950px) { body { background-image: url("/images/pattern-background-desktop.svg"); background-repeat: no-repeat; }
+@media only screen and (min-width: 950px) { body { background-image: url("/images/pattern-background-desktop.svg"); }
   body .page { width: 365px; }
   body .page .summary { width: 80%; }
   body .page .summary .confirm-plan .plan-details a:hover { color: #756af1; }
