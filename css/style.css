@@ -10,7 +10,7 @@
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
 
-body { font-size: 16px; font-family: "Red Hat Display", sans-serif; background-color: #e0e8ff; background-image: url("/images/pattern-background-mobile.svg"); background-repeat: no-repeat; background-size: cover; }
+body { font-size: 16px; font-family: "Red Hat Display", sans-serif; background-color: #e0e8ff; background-image: url("/order-summary-component/images/pattern-background-mobile.svg"); background-repeat: no-repeat; background-size: cover; }
 
 body .page { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 330px; margin: auto; margin-top: 20px; border: none; border-radius: 20px; overflow: hidden; background-color: white; -webkit-box-shadow: 0 15px 10px #e0ddf8; box-shadow: 0 15px 10px #e0ddf8; }
 
@@ -42,7 +42,7 @@ body .page .summary .confirm-plan .btn-container button:last-of-type { backgroun
 
 body .attribution { position: absolute; bottom: 2%; }
 
-@media only screen and (min-width: 950px) { body { background-image: url("/images/pattern-background-desktop.svg"); }
+@media only screen and (min-width: 950px) { body { background-image: url("/order-summary-component/images/pattern-background-desktop.svg"); }
   body .page { width: 365px; }
   body .page .summary { width: 80%; }
   body .page .summary .confirm-plan .plan-details a:hover { color: #756af1; }
