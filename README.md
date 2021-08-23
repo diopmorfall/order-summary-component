@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-with-mobilefirst-workflow-sass-and-flexbox-2hYLczEXI)
 - Live Site URL: [Github Pages](https://diopmorfall.github.io/order-summary-component/)
 
 ## My process
